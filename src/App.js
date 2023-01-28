@@ -61,7 +61,7 @@ function App() {
       unsubscribe();
       unsubscribeForMessages();
     };
-    //eslint-disable-nextline
+    //eslint-disable-next-line
   }, []);
 
 
