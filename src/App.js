@@ -61,6 +61,7 @@ function App() {
       unsubscribe();
       unsubscribeForMessages();
     };
+    //eslint-disable-nextline
   }, []);
 
 
@@ -91,7 +92,7 @@ function App() {
                     <Message
                       text={item.text}
                       uri={item.uri} 
-                      user={item.uid==user.uid?"me":"other"}
+                      user={item.uid===user.uid?"me":"other"}
                     />
                   ))
                 }
